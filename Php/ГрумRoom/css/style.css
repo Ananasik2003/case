@@ -1,0 +1,256 @@
+/*Медия запросы*/
+@media screen and (max-width: 980px){
+	.mob-open-white-menu-bg {
+    display: block;
+    float: right;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 24px;
+	}
+}
+
+@media  screen and (max-width: 1200px)  {
+		.block-text-a-menu-btn-nav {
+			display: none;
+		}
+
+		nav {
+			position: fixed;
+			z-index: 100;
+			width: 100%;
+			height: 100px;
+			background-color: #a9a9a9d1;
+			-webkit-box-shadow: 0px 14px 66px 1px rgba(0, 0, 0, 0.27);
+			-moz-box-shadow: 0px 14px 66px 1px rgba(0, 0, 0, 0.27);
+			box-shadow: 0px 14px 66px 1px rgba(0, 0, 0, 0.27);
+			opacity: 1;
+			transition: linear 0.3s;
+		}
+
+		.img-logo-nav {
+			width: 50px;
+			margin-left: 15px;
+			margin-top: 25px;
+		}
+
+		.text-logo-nav {
+			position: absolute;
+			top: 30px;
+			left: 75px;
+			font-size: 22px;
+			font-weight: 900;
+		}
+
+		.text-description-logo-nav {
+			position: absolute;
+			top: 60px;
+			left: 75px;
+			font-size: 13px;
+		}
+
+		.mob-open-white-menu-bg {
+			display: block;
+			float: right;
+			font-size: 50px;
+			margin-right: 20px;
+			margin-top: 24px;
+		}
+}
+
+@media(min-width: 387px) and (min-height: 812) {
+	main{
+	padding: 120px;
+	width: auto;
+	min-height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	}
+
+	.prim{
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	}
+}
+
+/*Подключение шрифта*/
+@font-face{
+	font-family: 'Merriweather';
+	src: url('Merriweather/Merriweather-LightItalic.ttf') format('truetype');
+}
+
+/* Настройка скроллбар*/
+::-webkit-scrollbar {
+	width: 7px; 
+	height: 7px; 
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #06ee22;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: black;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Merriweather';
+	font-size: 17px;
+	background-color: #a9a9a9d1;
+}
+
+nav {
+	font-family: 'Merriweather';
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 120px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 14px 66px 1px rgba(0, 0, 0, 0.27);
+	-moz-box-shadow: 0px 14px 66px 1px rgba(0, 0, 0, 0.27);
+	box-shadow: 0px 14px 66px 1px rgba(0, 0, 0, 0.27);
+	opacity: 0.7;
+	transition: linear 0.3s;
+}
+
+.head{
+   text-align: center;
+   padding: auto;
+   float: left;
+   width: 95%;
+   font-size: 20px;
+   font-weight: 2px;
+}
+
+.entrance{
+	padding: 0.1%;
+}
+
+a{
+	text-decoration: none;
+	color: #2F4F4F;
+}
+
+main{
+	padding: 120px;
+	width: auto;
+	height: 100%
+}
+
+.col{
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 10px;
+}
+
+.yo{
+	position: fixed;
+	width: 80%;
+	text-align: center;
+	padding: 10px;
+}
+
+.prim{
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+.og{
+	margin: 0 1.5%;
+}
+
+.foto{ 
+	background-color: #ffffff;
+	width: auto;
+	height: 50%;
+	float: left;
+	padding: 10px;
+	margin: 0 2%;
+}
+
+.img{
+	width: 310px;
+	height: 300px;
+}
+
+.text-description-logo-nav {
+	position: absolute;
+	top: 68px;
+	left: 120px;
+}
+.block-text-a-menu-btn-nav {
+	position: absolute;
+	right: 70px;
+	top: 55px;
+}
+.text-a-menu-btn-nav {
+	text-decoration: none;
+	color: black;
+	margin-left: 15px;
+}
+.login-text-a-menu-btn-nav {
+	border: 1px solid #06ee22;
+	border-radius: 3px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-left: 10px;
+	transition: linear 0.3s;
+}
+.login-text-a-menu-btn-nav:hover {
+	background-color: #06ee42e3;
+	color: white;
+	-webkit-box-shadow: -1px 9px 41px 13px rgba(84, 127, 3, 0.3);
+	-moz-box-shadow: -1px 9px 41px 13px rgba(84, 127, 3, 0.3);
+	box-shadow: -1px 9px 41px 13px rgba(84, 127, 3, 0.3);
+}
+.hover-effect-btn-on-page{ 
+	background-image: linear-gradient(currentcolor, currentcolor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 1px;
+	transition: background-size 0.3s ease 0s; }
+	.hover-effect-btn-on-page:hover {
+		background-size: 100% 1px;
+	}
+
+.text-logo-nav {
+	position: absolute;
+	top: 38px;
+	left: 120px;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+/*Свойства для контейнера*/
+#img_container {
+position: relative;
+height:114px;
+width:300px;
+margin:0 auto;
+cursor:pointer;
+overflow: hidden;
+}
+/*Свойства для изображения в контейнере*/
+#img_container img {
+position: absolute;
+left:0;
+-webkit-transition: opacity 0.5s ease-in-out;
+-moz-transition: opacity 0.5s ease-in-out;
+-o-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out;
+}
+/*100% прозрачность при наведении на изображение*/
+#img_container img.img_bottom:hover {
+opacity:0;
+}
